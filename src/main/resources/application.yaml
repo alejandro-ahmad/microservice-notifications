@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username: 739a635ea8eaba
+    password: ada9037c0709f5
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
